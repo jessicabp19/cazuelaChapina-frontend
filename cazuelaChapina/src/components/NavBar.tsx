@@ -7,6 +7,7 @@ export default function NavBar() {
       <Link to="/combos">Combos</Link>
       <Link to="/inventario">Inventario</Link>
       <Link to="/dashboard">Dashboard</Link>
+      <Link to="/assistant">Asistente</Link>
     </nav>
   );
 }

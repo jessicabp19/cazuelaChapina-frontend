@@ -26,3 +26,13 @@ export interface DashboardRes {
   topTamales: { tamal: string; unidades: number }[];
   proporcionPicante: { con: number; sin: number };
 }
+
+export interface Ingrediente {
+  id: number;
+  nombre: string;
+  unidad: string;
+  costoPromedio: number;
+  cantidadActual: number;
+  puntoCritico: number;
+}
+

@@ -4,6 +4,7 @@ import Combos from "./pages/Combos";
 import Inventory from "./pages/Inventory";
 import Dashboard from "./pages/Dashboard";
 import NavBar from "./components/NavBar";
+import Assistant from "./pages/Assistant";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/combos" element={<Combos/>}/>
         <Route path="/inventario" element={<Inventory/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
+        <Route path="/assistant" element={<Assistant/>}/>
       </Routes>
     </>
   );
